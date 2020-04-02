@@ -1,0 +1,3 @@
+rootProject.name='AndroidVideoPlayers'
+include ':app', ':vitamio-sample', ':vitamio'
+include ':exoplayer'

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ExoPlayer</string>
+    <string name="video_url">https://v-cdn.zjol.com.cn/280443.mp4</string>
+</resources>

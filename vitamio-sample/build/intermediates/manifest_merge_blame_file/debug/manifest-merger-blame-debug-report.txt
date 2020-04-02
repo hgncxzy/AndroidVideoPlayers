@@ -1,0 +1,142 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="io.vov.vitamio.demo"
+4    android:versionCode="2"
+5    android:versionName="0.0.2" >
+6
+7    <uses-sdk
+7-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:7:5-9:41
+8        android:minSdkVersion="15"
+8-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:8:9-34
+9        android:targetSdkVersion="25" />
+9-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:9:9-38
+10
+11    <uses-permission android:name="android.permission.WAKE_LOCK" />
+11-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:11:5-68
+11-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:11:22-65
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:12:5-67
+12-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:12:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:13:5-79
+13-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:13:22-76
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:14:5-80
+14-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:14:22-77
+15
+16    <application
+16-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:16:5-77:19
+17        android:allowBackup="false"
+17-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:17:9-36
+18        android:debuggable="true"
+19        android:icon="@drawable/ic_launcher"
+19-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:18:9-45
+20        android:label="@string/vitamio_demo_name"
+20-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:19:9-50
+21        android:testOnly="true" >
+22
+23        <!-- Don't forgot InitActivity -->
+24        <activity
+24-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:22:9-27:63
+25            android:name="io.vov.vitamio.activity.InitActivity"
+25-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:23:13-64
+26            android:configChanges="orientation|screenSize|smallestScreenSize|keyboard|keyboardHidden|navigation"
+26-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:24:13-113
+27            android:launchMode="singleTop"
+27-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:25:13-43
+28            android:theme="@android:style/Theme.NoTitleBar"
+28-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:26:13-60
+29            android:windowSoftInputMode="stateAlwaysHidden" />
+29-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:27:13-60
+30        <activity android:name="io.vov.vitamio.demo.VitamioListActivity" >
+30-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:28:9-35:20
+30-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:28:19-54
+31            <intent-filter>
+31-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:29:13-34:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:30:17-69
+32-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:30:25-66
+33
+34                <category android:name="android.intent.category.DEFAULT" />
+34-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:32:17-76
+34-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:32:27-73
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:33:17-77
+35-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:33:27-74
+36            </intent-filter>
+37        </activity>
+38        <activity
+38-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:36:9-39:20
+39            android:name="io.vov.vitamio.demo.MediaPlayerDemo"
+39-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:37:13-44
+40            android:label="Media/MediaPlayer" >
+40-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:38:13-46
+41        </activity>
+42        <activity
+42-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:40:9-44:20
+43            android:name="io.vov.vitamio.demo.VideoViewDemo"
+43-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:41:13-42
+44            android:configChanges="orientation|screenSize|smallestScreenSize|keyboard|keyboardHidden|navigation"
+44-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:42:13-113
+45            android:label="Media/VideoView" >
+45-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:43:13-44
+46        </activity>
+47        <activity
+47-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:45:9-48:20
+48            android:name="io.vov.vitamio.demo.MediaPlayerDemo_Video"
+48-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:46:13-50
+49            android:label="Media/MediaPlayer" >
+49-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:47:13-46
+50        </activity>
+51        <activity
+51-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:49:9-52:20
+52            android:name="io.vov.vitamio.demo.MediaPlayerDemo_setSurface"
+52-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:50:13-55
+53            android:label="Media/MediaPlayer" >
+53-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:51:13-46
+54        </activity>
+55        <activity
+55-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:53:9-56:20
+56            android:name="io.vov.vitamio.demo.MediaPlayerDemo_Audio"
+56-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:54:13-50
+57            android:label="Media/MediaPlayer" >
+57-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:55:13-46
+58        </activity>
+59        <activity
+59-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:57:9-60:20
+60            android:name="io.vov.vitamio.demo.MediaMetadataRetrieverDemo"
+60-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:58:13-55
+61            android:label="Media/MediaMetadata" >
+61-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:59:13-48
+62        </activity>
+63        <activity
+63-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:61:9-64:20
+64            android:name="io.vov.vitamio.demo.MediaPlayerSubtitle"
+64-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:62:13-48
+65            android:label="@string/title_activity_media_player_subtitle" >
+65-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:63:13-73
+66        </activity>
+67        <activity
+67-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:65:9-68:20
+68            android:name="io.vov.vitamio.demo.VideoViewSubtitle"
+68-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:66:13-46
+69            android:label="@string/title_activity_video_view_subtitle" >
+69-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:67:13-71
+70        </activity>
+71        <activity
+71-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:69:9-72:20
+72            android:name="io.vov.vitamio.demo.VideoSubtitleList"
+72-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:70:13-46
+73            android:label="@string/title_activity_video_subtitle_list" >
+73-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:71:13-71
+74        </activity>
+75        <activity
+75-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:73:9-76:20
+76            android:name="io.vov.vitamio.demo.VideoViewBuffer"
+76-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:74:13-44
+77            android:label="@string/title_activity_video_buffer" >
+77-->C:\xzy_projects\AndroidVideoPlayers\vitamio-sample\AndroidManifest.xml:75:13-64
+78        </activity>
+79    </application>
+80
+81</manifest>

@@ -1,0 +1,4 @@
+#Thu Apr 02 17:42:09 CST 2020
+base.0=C\:\\xzy_projects\\AndroidVideoPlayers\\vitamio-sample\\build\\intermediates\\dex\\debug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
